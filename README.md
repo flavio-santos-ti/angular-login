@@ -4,7 +4,7 @@ Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 ## Servidor de Desenvolvimento
 
-Execute o comando `ng serve` no terminal para executar a aplicação, em seguida navegue através de um browser o endereço `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Execute o comando `ng serve` no terminal para executar a aplicação, em seguida navegue através do browser de sua preferência o host `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
