@@ -1,0 +1,66 @@
+<div class="main-div">
+  <mat-card class="login-card" >
+    <mat-card-content>
+
+      <form [formGroup]="formulario">
+
+        <div class="div-header">
+          <img src="../../../assets/logo-login.png" alt="">
+        </div>
+
+        <!-- Field Email -->
+        <p>
+          <mat-form-field class="full-width">
+
+            <mat-label>Email</mat-label>
+            <input matInput type="email"  formControlName="email" placeholder="Exemplo: email@example.com">
+
+            <mat-error *ngIf="formulario.get('email')?.errors?.['required']">
+              O E-mail é de preenchimento obrigatório
+            </mat-error>
+
+            <mat-error *ngIf="!formulario.get('email')?.errors?.['required'] && formulario.get('email')?.errors?.['email']">
+              Entre com um e-mail válido
+            </mat-error>
+
+            <mat-error *ngIf="!formulario.get('email')?.errors?.['required'] && !formulario.get('email')?.errors?.['email'] && formulario.get('email')?.errors?.['minusculo']">
+              O E-mail deve conter apenas letras minúsculas
+            </mat-error>
+
+          </mat-form-field>
+        </p>
+        <!-- Field Email  -->
+
+        <!-- Field Senha  -->
+        <p>
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Password" [type]="hide ? 'password' : 'text'" formControlName="senha" required>
+            <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+
+            <mat-error *ngIf="formulario.get('senha')?.errors?.['required'] && ( formulario.get('senha')?.dirty || formulario.get('senha')?.touched)">
+              O senha é de preenchimento obrigatório
+            </mat-error>
+
+            <mat-error *ngIf="formulario.get('senha')?.errors?.['minlength'] && !formulario.get('senha')?.errors?.['required']">
+              A senha exige no mínimo 6 caracteres
+            </mat-error>
+
+          </mat-form-field>
+        </p>
+        <!-- Field Senha  -->
+
+        <div class="div-submit"  >
+          <button class="button-entrar" mat-raised-button type="submit"  color="primary" [disabled]="!formulario.valid">ENTRAR</button>
+        </div>
+
+        <div class="div-footer">
+          <div class="div-terms">
+            <p>Direitos autorais de uso de imagem(foto) fornecido por <a href="https://unsplash.com/@carlosaranda?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carlos Aranda</a> disponível na <a href="https://unsplash.com/pt-br/fotografias/QMjCzOGeglA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash.</a> </p>
+          </div>
+        </div>
+
+      </form>
+
+    </mat-card-content>
+  </mat-card>
+</div>
