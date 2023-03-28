@@ -4,6 +4,20 @@ Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 <img width="1050" src="https://user-images.githubusercontent.com/62816438/228353887-8133e9f1-cbbf-485c-b854-c246ff20fc2d.png" alt="arquitetura"/>
 
+## 2 - Tecnologia
+
+<p display="inline-block">
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221403488-185ae58f-8d9f-4893-8516-e2e9d53bdded.png" alt="csharp-logo"/>
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221403370-29d0ab19-e406-4581-bc98-838691b4968a.png" alt="fluentvalidation-logo"/>
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221403187-df0d20a4-d15b-4f68-b449-450500d1ad49.png" alt="automapper-logo"/>
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221403028-b4f6ceec-b1b4-48d9-8fca-4a2adab8227f.png" alt="dapper-logo"/>
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221403962-c5b539cf-1f73-4fbf-8937-507f6956b540.png" alt="postgresql-logo"/>
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221404176-630c9bc1-de1c-4b1b-ad74-8e26bc07b6cb.png" alt="dotnetcore-logo"/>
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221405368-aeaed761-e962-4a3b-bc9c-7a5c7f1543b5.png" alt="docker-logo"/>
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221405737-87bc0545-83ea-49cb-8e6d-d5dbb06f91dc.png" alt="ubuntu-logo"/>
+  <img width="48" src="https://user-images.githubusercontent.com/62816438/221621748-124b8a8c-dd15-4d8d-8139-b98f11e36c62.png" alt="ubuntu-logo"/>
+</p>
+
 ## Instalação
 
 Após a realização do `git clone` execute a instrução de comando abaixo para a realização do download das depedências do projeto.
