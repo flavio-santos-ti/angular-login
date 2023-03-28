@@ -14,4 +14,4 @@ npm install
 
 ## Servidor de Desenvolvimento
 
-Execute o comando `ng serve` no terminal para executar a aplicação, em seguida navegue através do browser de sua preferência o host `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Execute o comando `ng serve` no terminal para executar a aplicação e em seguida navegue através até browser de sua preferência com o host `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
