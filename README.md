@@ -1,6 +1,6 @@
 # Tela de Login
 
-Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1. O objetivo demonstrar a utilização [Angular Material](https://v8.material.angular.io) e o funcionamento do Reactive Forms e os Validators, incluindo a customização de um Validator.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1 e seu objetivo é demonstrar a utilização [Angular Material](https://v8.material.angular.io) e o funcionamento do Reactive Forms e os Validators, incluindo a customização de um Validator.
 
 <img width="1050" src="https://user-images.githubusercontent.com/62816438/228353887-8133e9f1-cbbf-485c-b854-c246ff20fc2d.png" alt="arquitetura"/>
 
