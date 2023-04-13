@@ -1,6 +1,8 @@
+import { TokenModel } from "./token.model";
+
 export interface ResponseLoginModel {
-  hash: string;
-  tenantId: number;
-  UsuarioId: number;
-  Login: string;
+  successed: boolean;
+  name: string;
+  message: string;
+  data: TokenModel;
 }

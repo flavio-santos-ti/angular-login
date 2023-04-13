@@ -13,7 +13,7 @@
           <mat-form-field class="full-width">
 
             <mat-label>Email</mat-label>
-            <input matInput type="email"  formControlName="email" placeholder="Exemplo: email@example.com">
+            <input matInput type="email"  formControlName="login" placeholder="Exemplo: email@example.com">
 
             <mat-error *ngIf="formulario.get('email')?.errors?.['required']">
               O E-mail é de preenchimento obrigatório
@@ -50,7 +50,14 @@
         <!-- Field Senha  -->
 
         <div class="div-submit"  >
-          <button class="button-entrar" mat-raised-button type="submit"  color="primary" [disabled]="!formulario.valid">ENTRAR</button>
+          <button
+            (click)="Autentica()"
+            class="button-entrar"
+            mat-raised-button
+            type="submit"
+            color="primary"
+            [disabled]="!formulario.valid">ENTRAR
+          </button>
         </div>
 
         <div class="div-footer">
